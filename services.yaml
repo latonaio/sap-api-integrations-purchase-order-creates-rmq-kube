@@ -9,12 +9,12 @@ spec:
   selector:
     matchLabels:
       run: sap-api-integrations-purchase-order-creates-rmq-kube
-      app: PURCHASE_ORDER
+      app: SAP_PURCHASE_ORDER
   template:
     metadata:
       labels:
         run: sap-api-integrations-purchase-order-creates-rmq-kube
-        app: PURCHASE_ORDER
+        app: SAP_PURCHASE_ORDER
     spec:
       nodeName: worker
       hostname: sap-api-integrations-purchase-order-creates-rmq-kube
